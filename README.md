@@ -17,10 +17,16 @@ This Web API project is used to Fetch, Add, Update the Products from the Databas
 1. Run the application.
 2. Access the API endpoints using tools like Postman or Swagger UI.
 
-## Usage
-- Describe how to use the project, including any API endpoints or functionalities.
-
 ## Configuration
-- Added ProductMaster.bak file in the Repo.
+- Added ProductMaster.bak file in the Database folder.
 - Restore the database in SQL Server 2019.
-- Set the Connection String in appsettings.json file under "DefaultConnection" property. 
+- Set the Connection String in appsettings.json file under "DefaultConnection" property.
+
+## APIs
+- Below are the list of APIs
+- GET - /api/products/getallproducts
+- GET - /api/products/productid/{productId}
+- POST - /api/products/addproduct
+- PUT - /api/products/updateproduct
+- POST - /api/products/updateproductsprice
+
